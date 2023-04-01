@@ -1,0 +1,33 @@
+.project-lists {
+  list-style: none;
+  width: 20%;
+  display: flex;
+}
+
+@media screen and (max-width: 1200px) {
+  .project-lists {
+    width: 25%;
+  }
+}
+
+.project-img {
+  width: 200px;
+}
+
+.proj-head {
+  color: #475569;
+  font-size: 16px;
+  font-family: 'Roboto';
+}
+
+@media screen and (max-width: 860px) {
+  .project-lists {
+    width: 100%;
+  }
+  .project-img {
+    width: 100%;
+  }
+  .project-head {
+    text-align: center;
+  }
+}
